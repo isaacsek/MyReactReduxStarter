@@ -6,12 +6,12 @@ class Header extends Component {
     console.log(this.props.combinedReducer);
 		return (
 			<nav>
-				<div className="nav-wrapper">
-					<a className="left brand-logo">MyApp</a>
+				<div className="nav-wrapper  blue darken-2">
+					<a className="brand-logo ml-2">MyApp</a>
 					<ul className="right">
-						<li>
-							<a>Login</a>
-						</li>
+						<li><a href="">Projects</a></li>
+						<li><a href="">About</a></li>
+		        <li><a href="">Contact</a></li>
 					</ul>
 				</div>
 			</nav>
