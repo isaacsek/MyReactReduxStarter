@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import {connect} from 'react-redux';
 
+// Landing page for the WebApp
 class Welcome extends Component {
 	render() {
     console.log(this.props.combinedReducer);

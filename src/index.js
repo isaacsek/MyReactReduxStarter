@@ -12,6 +12,7 @@ import reducers from "./reducers"; // folder find the index file
 
 const store = createStore(reducers, {}, applyMiddleware(reduxThunk));
 
+// Redux app layout
 ReactDOM.render(
   	<Provider store={store}>
   		<App />

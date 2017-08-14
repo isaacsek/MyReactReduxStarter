@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 
+// A basic Header for the WebApp
 class Header extends Component {
 	render() {
 		console.log(this.props.combinedReducer);

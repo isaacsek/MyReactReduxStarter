@@ -6,9 +6,10 @@ import * as actions from "../actions";
 import Header from "./Header";
 import Welcome from "./Welcome";
 
+// Layout of app, including ReactRouter URL routing
 class App extends Component {
 	componentDidMount() {
-		this.props.fetchUser();
+		this.props.fetchData();
 	}
 
 	render() {
